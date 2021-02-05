@@ -6,9 +6,24 @@ Answer the following questions.
 """
 
 # 1.- Make a program that solves and shows the summation of 64 + 32
+print(64+32)
 
 # 2.- Do the same as the question one but this time use variables instead of 
 # numbers.
+def summation(first_number, second_number):
+    """Calculate the sum of 2 numbers provided by the user
+    
+    Args:
+        first_number(int or float): first number
+        second_number(int or float): second number
+        
+    Returns:
+        int or float: sum of first_number and second_number
+    """
+    
+    return(first_number + second_number)
+
+print(summation(64,32))
 
 # 3.- Make a program that prints a sentence that includes at least 3 variables.
 
